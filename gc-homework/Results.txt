@@ -1,0 +1,18 @@
+Heap size                   result time                             result time after refactor
+
+-Xms256m -Xmx256m           OutOfMemoryError: Java heap space       spend msec:1770, sec:1
+
+-Xms300m -Xmx300m           spend msec:10356, sec:10                spend msec:1558, sec:1
+
+-Xms512m -Xmx512m           spend msec:8936, sec:8                  spend msec:1428, sec:1
+
+-Xms700m -Xmx700m           spend msec:8702, sec:8                  spend msec:1404, sec:1
+
+-Xms800m -Xmx800m           spend msec:8197, sec:8                  spend msec:1339, sec:1
+
+-Xms900m -Xmx900m           spend msec:8220, sec:8                  spend msec:1377, sec:1
+
+-Xms1024m -Xmx1024m         spend msec:8221, sec:8                  spend msec:1415, sec:1
+
+
+The best heap size is 800m
